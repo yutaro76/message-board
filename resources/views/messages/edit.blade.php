@@ -9,8 +9,8 @@
             {!! Form::model($message, ['route' => ['messages.update', $message->id], 'method' => 'put']) !!}
 
                 <div class="form-group">
-                    {!! Form::label('content', 'タイトル:') !!}
-                    {!! Form::text('content', null, ['class' => 'form-control']) !!}
+                    {!! Form::label('title', 'タイトル:') !!}
+                    {!! Form::text('title', null, ['class' => 'form-control']) !!}
                 </div>
 
                 <div class="form-group">
